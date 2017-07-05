@@ -72,7 +72,7 @@ public class Sheet {
 	}
 
 	public static class SheetRowReader {
-		public final static int MAX_COLUMN_SPAN = (('Z' - 'A') + 1) * 2;
+		public final static int MAX_COLUMN_SPAN = (('Z' - 'A') + 1) * 4;
 
 		IteratorStatus status = new IteratorStatus();
 
